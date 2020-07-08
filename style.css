@@ -1,0 +1,654 @@
+body {
+  font-family: 'Rubik', sans-serif;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+h1 {
+  color: #252B46;
+  font-size: 2rem;
+}
+
+p {
+  color: #9194A1;
+  padding-bottom: 20px;
+  line-height: 24px;
+}
+
+hr {
+  height: 2px;
+  border-width: 0;
+  background-color: lightgrey;
+  margin-top: 2px;
+  margin-bottom: 0;
+}
+
+/************************ NAVBAR ***************************/
+.navbar {
+  padding: 40px 150px;
+}
+
+.hamburger-icon {
+  display: none;
+}
+
+.nav-brand {
+  float: left;
+  margin-top: 5px;
+}
+
+.navbar-ul {
+  list-style-type: none;
+  margin: 0 0 0 725px;
+  padding: 0;
+  overflow: hidden;
+  font-size: 0.9rem;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.navbar-hr{
+  display: none;
+}
+
+.nav-link {
+  float: left;
+  padding: 8px 20px;
+  text-decoration: none;
+  color: #9194A1;
+}
+
+.nav-link:hover {
+  color: #FA5757;
+}
+
+.red-btn {
+  border: 1.5px solid #FA5757;
+  border-radius: 5px;
+  background-color: #FA5757;
+  color: white;
+  margin-left: 20px;
+}
+
+.red-btn:hover {
+  color: #FA5757;
+  background-color: white;
+}
+/*************************** HEADING SECTION ***********************************/
+.blue-btn {
+  border: 1.5px solid #5368DF;
+  border-radius: 5px;
+  background-color: #5368DF;
+  color: white;
+  padding: 8px 20px;
+  text-decoration: none;
+  box-shadow: 0 1px 9px lightgrey;
+}
+
+.blue-btn:hover {
+  color: #5368DF;
+  background-color: white;
+}
+
+.grey-btn {
+  border-radius: 5px;
+  padding: 8px 20px;
+  text-decoration: none;
+  color: #9194A1;
+  box-shadow: 0 1px 9px lightgrey;
+  margin-left: 20px;
+}
+
+.grey-btn:hover {
+  background-color: white;
+  border: 1.5px solid #9194A1;
+}
+
+.heading {
+  margin-top: 35px;
+}
+
+.head {
+  width: 31%;
+  float: left;
+  margin-left: 150px;
+  margin-top: 65px;
+}
+
+h1 .head {
+  font-size: 3rem;
+}
+
+.head-img {
+  margin-left: 185px;
+}
+
+.round-bg-1 {
+  height: 320px;
+  width: 530px;
+  background-color: #5368DF;
+  border-radius: 160px 0 0 160px;
+  position: absolute;
+  right: 0;
+  top: 296px;
+  z-index: -1;
+}
+
+/***************************** FEATURES SECTION ******************************/
+.feature-head {
+  text-align: center;
+  width: 36%;
+  margin: 80px auto 30px auto;
+}
+
+.feature-ul {
+  list-style-type: none;
+  padding: 0;
+  font-size: 0.9rem;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+  width: 49%;
+  margin: 10px auto 0;
+  position: relative;
+  top: 2px;
+}
+
+.feature-ul li {
+  padding: 0 50px 20px;
+}
+
+.feature-hr-main {
+  height: 2px;
+  width: 47%;
+  border-width: 0;
+  background-color: lightgrey;
+  margin: 0 auto;
+}
+
+.active-li {
+  border-bottom: 4px solid #FA5757;
+}
+
+.active {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.tags {
+  text-decoration: none;
+  color: #9194A1;
+}
+
+.tags:hover {
+  color: #FA5757;
+}
+
+
+.content {
+  margin-top: 70px;
+}
+
+.feature {
+  width: 29%;
+  float: right;
+  margin-right: 220px;
+  margin-top: 70px;
+}
+
+.images {
+  position: relative;
+}
+
+.round-bg-2 {
+  height: 320px;
+  width: 600px;
+  background-color: #5368DF;
+  border-radius: 0 160px 160px 0;
+  position: absolute;
+  top: 114px;
+  z-index: -1;
+}
+
+.features-img {
+  margin-left: 220px;
+  margin-bottom: 150px;
+}
+
+/************************** DOWNLOAD SECTION ***********************************/
+.download {
+  text-align: center;
+  width: 36%;
+  margin: 0 auto 30px auto;
+}
+
+.download-cards {
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  height: 400px;
+  width: 280px;
+  text-align: center;
+  box-shadow: 0 1px 9px lightgrey;
+  border-radius: 15px;
+  margin: 0 20px;
+}
+
+.logo-img {
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+
+.add-text  {
+  margin-bottom: 0;
+}
+
+.version {
+  margin-top: 10px;
+}
+
+.bg-dot-img {
+  margin-bottom: 50px;
+}
+
+.firefox-card {
+  margin-top: 50px;
+}
+
+.opera-card {
+  margin-top: 100px;
+}
+
+/********************************** FAQ SECTION *********************************/
+.faq-head {
+  text-align: center;
+  width: 34%;
+  margin: 100px auto 30px auto;
+}
+
+.faq-body {
+  width: 34%;
+  margin: 20px auto;
+}
+
+.arrow-icon {
+  margin-right: 25px;
+  margin-top: 5px;
+}
+
+.question {
+  border: none;
+  outline: none;
+  padding: 18px 0;
+  width: 100%;
+  background-color: #FFFFFF;
+  color: #646a82;
+  text-align: left;
+  font-size: 1.1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.question:hover {
+  color: #FA5757;
+}
+
+.question:focus {
+  color: #0f1015;
+}
+
+.answer {
+  margin: 0;
+  overflow: hidden;
+  display: none;
+  background-color: #FFFFFF;
+}
+
+.last-btn {
+  margin: 50px 197px;
+  display: inline-block;
+}
+
+/****************************** CONTACT SECTION *******************************/
+#contact {
+  background-color: #5368DF;
+}
+
+.contact-head {
+  text-align: center;
+  width: 30%;
+  margin: 20px auto;
+}
+
+.contact-head h1 {
+  color: white;
+  margin-top: 0;
+}
+
+.contact-head p {
+  color: white;
+  padding-top: 100px;
+  letter-spacing: 6px;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+.email-form {
+  width: 35%;
+  margin: 0 auto;
+  position: relative;
+}
+
+input[type=email] {
+  width: 60%;
+  padding: 10px;
+  margin: 20px 0 60px 20px;
+  display: inline-block;
+  font-size: 1rem;
+  border: 2px solid white;
+  color: #3E3C49;
+  border-radius: 4px;
+}
+
+input[type=email]:focus {
+	outline: 0;
+	border-color: #777;
+}
+
+.email-form .icon-error {
+  position: absolute;
+  top: 30px;
+  right: 190px;
+  visibility: hidden;
+}
+
+.email-form.error .icon-error {
+  visibility: visible;
+}
+
+.email-form small {
+  position: absolute;
+  left: 20px;
+  top: 60px;
+  font-size: 0.7rem;
+  width: 64.5%;
+  margin: 0;
+  padding: 4px 10px;
+  box-sizing: border-box;
+  background-color: #FA5757;
+  color: white;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  font-style: italic;
+  visibility: hidden;
+}
+
+.email-form.error small {
+  visibility: visible;
+}
+
+.form button {
+  padding: 10px;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.email-form.error input {
+  border: 2px solid #FA5757;
+}
+
+.social-icons {
+  margin: 0 auto;
+  display: flex;
+  padding-bottom: 20px;
+  justify-content: space-evenly;
+  height: 25px;
+  width: 7%;
+}
+
+/********************************* MEDIA QUERY *********************************/
+@media (max-width: 375px) {
+  body {
+    text-align:center;
+  }
+
+  h1 {
+    font-size: 1.7rem;
+  }
+
+  p {
+    font-size: 0.95rem
+  }
+
+  /************************ NAVBAR ***************************/
+  .navbar {
+    padding: 0;
+    position:absolute;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+  }
+
+  .navbar.responsive {
+    background-color:#444d6e;
+    opacity: .95;
+  }
+
+  .navbar.responsive img {
+    color: white;
+  }
+
+  .nav-brand {
+    margin: 40px 0 35px 25px;
+  }
+
+  .hamburger-icon {
+    display: block;
+    position: absolute;
+    top:45px;
+    right:30px;
+  }
+
+  .navbar-ul {
+    width: 100%;
+    margin-left: 0;
+    font-size: 1rem;
+    display : none;
+  }
+
+  .navbar.responsive .navbar-ul {
+    display :block;
+  }
+
+  .nav-link {
+    width: 100%;
+    text-align:center;
+    padding: 15px 0;
+    color: #e5e7ef;
+  }
+
+  .nav-link:hover {
+    color: white;
+  }
+
+  .navbar-hr {
+    display: block;
+    height: 0.1px;
+    border-width: 0;
+    background-color: #e5e7ef;
+    width: 85%;
+    margin: 1px auto;
+  }
+
+  .red-btn {
+    margin: 25px 0 50px 27px;
+    width: 77%;
+    padding: 15px;
+    background-color:#444d6e;
+    color: #e5e7ef;
+    border: 2px solid #e5e7ef;
+  }
+
+  .red-btn:hover {
+    color : white;
+    background-color:#444d6e;
+    border-color: white;
+  }
+
+  /*************************** HEADING SECTION ***********************************/
+  .head {
+    width:90%;
+    padding: 50px 20px;
+    margin: 0;
+  }
+
+  .blue-btn {
+    font-size:0.9rem;
+    margin-right: 10px;
+    padding: 8px;
+  }
+
+  .grey-btn {
+    font-size:0.9rem;
+    padding: 8px;
+    margin-left: 10px;
+  }
+
+  .head-img {
+    margin: 0;
+    width: 90%;
+  }
+
+  .round-bg-1 {
+    height: 170px;
+    width: 200px;
+    top: 460px;
+  }
+
+  /***************************** FEATURES SECTION ******************************/
+  .feature-head {;
+    width: 95%;
+  }
+
+  .feature-hr-main {
+    display:none;
+  }
+
+  .feature-ul {
+    display: block;
+    width: 80%;
+  }
+
+  .feature-ul li {
+    padding-top: 20px;
+  }
+
+  .feature-hr {
+    margin: 0;
+    height: 0.9px;
+  }
+
+  .feature {
+    width: 95%;
+    margin: 0 5px 90px auto;
+  }
+
+  .round-bg-2 {
+    height: 170px;
+    width: 250px;
+    top: 420px;
+  }
+
+  .features-img {
+    width: 85%;
+    margin-left: 0;
+  }
+
+  /************************** DOWNLOAD SECTION ***********************************/
+  .download {
+    width: 95%;
+  }
+
+  .download-cards {
+    display: block;
+  }
+
+  .container {
+    margin: 50px auto;
+  }
+
+  /********************************** FAQ SECTION *********************************/
+  .faq-head {
+    width: 95%;
+  }
+
+  .faq-body {
+    width: 90%;
+  }
+
+  .answer {
+    text-align: left;
+  }
+
+  .last-btn {
+    margin: 50px auto 40px;
+  }
+
+  /****************************** CONTACT SECTION *******************************/
+  .contact-head {
+    width: 95%;
+    margin: 20px auto;
+  }
+
+  .contact-head p {
+    letter-spacing: 5px;
+    font-size: 0.8rem;
+  }
+
+  .email-form {
+    width: 100%;
+  }
+
+  input[type=email] {
+    width: 70%;
+    margin: 20px auto 0;
+  }
+
+  .email-form img {
+    top: 30px;
+    right: 60px;
+  }
+
+
+  .email-form small {
+    left: 44px;
+    width: 76.5%;
+  }
+
+  .form button {
+    font-size: 0.9rem;
+    margin: 40px auto;
+    border: 1.5px solid #FA5757;
+    border-radius: 5px;
+    background-color: #FA5757;
+    color: white;
+    }
+
+  .form button:hover {
+    color: #FA5757;
+    background-color: white;
+    border: 1.5px solid #FA5757;
+  }
+
+  .social-icons {
+    width: 30%;
+  }
+
+}
